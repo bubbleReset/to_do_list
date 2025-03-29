@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b7fb4589-c470-4d0b-a0b7-466424207b59" name="to_do_list" url="http://10.205.219.0">
+        <fileTransfer rootFolder="/root/Django_Project" accessType="FTPS" host="10.205.219.0" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

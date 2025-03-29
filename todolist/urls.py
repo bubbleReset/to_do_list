@@ -1,6 +1,11 @@
+from tkinter.font import names
+
 from django.urls import path
 from . import views
 
+app_name = 'todolist'
 urlpatterns = [
-    path('', views.home),
+    path('home/', views.home, name='主页'),
+    path('edit/', views.edit, name='编辑'),
+    path('about/', views.about, name='关于'),
 ]

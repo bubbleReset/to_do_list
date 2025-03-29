@@ -1,0 +1,9 @@
+
+/*#鼠标悬浮没有下划线*/
+.no-underline>tr>td>a:hover{
+    text-decoration: none;
+}
+/*#划掉删除线*/
+#line-through{
+    text-decoration: line-through;
+}
